@@ -4,8 +4,8 @@
   "description": "MERN Todo List App with Express & MongoDB Rest API",
   "main": "index.ts",
   "scripts": {
-    "start": "node backend/index.ts",
-    "server": "nodemon backend/index.ts",
+    "start": "node backend/index.js",
+    "server": "nodemon backend/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "turbolukoshko",
@@ -14,9 +14,7 @@
     "colors": "^1.4.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "mongoose": "^6.3.3",
-    "ts-node": "^10.7.0",
-    "typescript": "^4.6.4"
+    "mongoose": "^6.3.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
